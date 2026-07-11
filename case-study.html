@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Corner Grocer Case Study | Corner Grocer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-md-3 sidebar">
+        <div class="sidebar-content">
+          <div class="text-center mb-4">
+            <div class="grocery-icon mb-3">
+              <span class="logo-tile"><img src="images/corner_grocer_transparent.png" alt="Corner Grocer logo" width="120" height="120"></span>
+            </div>
+            <h2 class="text-white">Corner Grocer</h2>
+            <p class="text-light">Portfolio Project</p>
+          </div>
+
+          <div class="data-summary-card">
+            <h5>Project Pages</h5>
+            <a class="btn btn-option w-100 mb-2" href="index.html">Overview</a>
+            <a class="btn btn-option w-100 mb-2" href="demo.html">Interactive Demo</a>
+            <a class="btn btn-option w-100 mb-2" href="case-study.html">Case Study</a>
+            <a class="btn btn-option w-100 mb-2" href="articles/index.html">Articles</a>
+          </div>
+
+          <div class="data-summary-card">
+            <h5>Project Progression</h5>
+            <div class="summary-item">Original C++ application</div>
+            <div class="summary-item">Python redesign</div>
+            <div class="summary-item">Sorting and search</div>
+            <div class="summary-item">SQLite persistence</div>
+            <div class="summary-item">Static browser demo</div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="col-md-9 main-content">
+        <header class="header">
+          <div class="header-row mb-3">
+            <span class="logo-tile"><img src="images/corner_grocer_transparent.png" width="80" height="80"  alt="Corner Grocer logo"></span>
+            <div>
+              <h1>Corner Grocer Case Study</h1>
+              <p class="lead">How I rebuilt and expanded a grocery-frequency application across C++, Python, SQLite, and the browser</p>
+            </div>
+          </div>
+        </header>
+
+        <section class="card">
+          <div class="card-header"><h4>Project Overview</h4></div>
+          <div class="card-body">
+            <p>The original Corner Grocer application was a C++ command-line program designed to analyze and report the frequency of grocery items sold in a store. It read daily sales data from a text file, stored and counted each item’s frequency using a map data structure, and displayed the results as either a full frequency list or an asterisk histogram.</p>
+            <p>The application solved a practical inventory-tracking problem by helping users identify purchasing trends for commonly purchased grocery items. While the original version was functional, it ran only as a standalone console program and had limitations in usability, structure, error handling, and long-term data storage.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-header"><h4>Why I Chose This Project</h4></div>
+          <div class="card-body">
+            <p>I chose Corner Grocer because it provided a clear foundation for demonstrating a wide range of software development skills within one project. The original C++ version already had useful core logic, but it also left room for meaningful improvements in software design, algorithms and data structures, database integration, and user experience.</p>
+            <p>Using the same application throughout each stage also made it possible to show how I approach an existing codebase over time. Instead of replacing the original idea, I preserved its purpose and functionality while restructuring the code, adding practical features, and preparing it for future expansion.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-header"><h4>The Original C++ Application</h4></div>
+          <div class="card-body">
+            <p>The original program used standard file streams and a <code>std::map</code> to store grocery item frequencies. Users could look up the frequency of one item, print the complete frequency list, or display a histogram showing each item’s count with asterisks.</p>
+            <p>The program completed its intended task, but the code was mostly procedural and lacked advanced error handling, modularity, persistence, and features beyond the original requirements. Item data existed only while the program was running, and the application had no way to save reports on demand or support more advanced sorting and searching.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-header"><h4>Enhancement One: Rewriting the Application in Python</h4></div>
+          <div class="card-body">
+            <p>I rewrote the program from scratch in Python, incorporating modern design patterns, improved user feedback, and several structural and functional enhancements. Rewriting it in Python allowed me to adopt cleaner programming practices while preserving the original objectives and logic.</p>
+            <p>The enhanced version introduced a <code>GroceryFrequency</code> class that encapsulates the application’s core functionality, making the code more readable, testable, and maintainable. I replaced the C++ map logic with Python’s <code>defaultdict</code>, used context managers for file access, and separated the application into focused methods rather than keeping the logic in one procedural flow.</p>
+            <p>I also added input validation, exception handling, and clearer user messaging. Two new menu options allowed users to save a backup of the frequency list and a backup of the histogram at any point. The program confirms whether each file was successfully written and displays the full save path, which gives users clearer feedback and makes the backup features more useful.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-header"><h4>Enhancement Two: Sorting, Searching, and Data Handling</h4></div>
+          <div class="card-body">
+            <p>I expanded the application’s data handling by adding alphabetical sorting, frequency-based sorting, and item search functionality. These features made the program more useful for realistic inventory tasks because users could organize the same data in different ways, quickly find a specific item, and identify the products sold most often.</p>
+            <p>I placed the sorting and searching logic into reusable helper functions rather than writing it directly inside the menu. This kept the main program focused on application flow and user interaction while keeping the data-processing logic modular, easier to test, and easier to maintain.</p>
+            <p>I also improved item normalization so capitalization and common singular or plural variations are treated as the same grocery item. For example, <strong>Apple</strong>, <strong>apple</strong>, and <strong>apples</strong> are processed as one item instead of creating separate records. Search also supports partial matches, which makes the feature more forgiving and practical for users who may not enter the exact stored name.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-header"><h4>Enhancement Three: SQLite Database Integration</h4></div>
+          <div class="card-body">
+            <p>The next enhancement replaced the application’s in-memory data handling with a persistent SQLite database backend. In the earlier versions, data was loaded from a file and stored temporarily while the program was running. Moving the data into SQLite allowed the application to retain information across sessions without requiring a separate database server or additional setup.</p>
+            <p>I placed all database-related logic into a dedicated <code>db_handler.py</code> module. Database connections, table creation, inserts, updates, queries, and exports are separated from the menu and presentation logic. This separation of concerns makes the application easier to maintain and allows the database layer to be updated without rewriting unrelated parts of the program.</p>
+            <p>I used parameterized SQL queries, validated data before storage, and added exception handling around database operations. The enhancement preserved all existing non-database features, so the application gained persistent storage without losing the functionality already added during the earlier stages.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-header"><h4>Creating the Static Browser Demo</h4></div>
+          <div class="card-body">
+            <p>The original C++ and Python versions were command-line applications, so I created a browser-based demo that could run directly through GitHub Pages. The demo keeps the same menu-driven purpose while presenting the features through a visual interface built with HTML, CSS, and JavaScript.</p>
+            <p>Because GitHub Pages cannot run Python or provide a live SQLite backend, I recreated the application logic in JavaScript and used browser storage to simulate persistence. The demo includes item lookup, full frequency reporting, a histogram, alphabetical and frequency-based sorting, partial search, item entry, and downloadable report exports.</p>
+            <p>This version is not intended to replace the original source code. It gives visitors a working way to interact with the project while the downloadable Python files preserve the full enhanced implementation.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-header"><h4>Challenges and Decisions</h4></div>
+          <div class="card-body">
+            <p>Converting the project from C++ to Python required more than translating syntax. I had to decide how to restructure the original logic around Python’s design patterns, replace map behavior with a Python-appropriate data structure, and improve the application without changing what it was designed to do.</p>
+            <p>File writing and user error handling also required careful testing. I needed to make sure backup files were created successfully, permissions or missing files did not cause the program to fail without explanation, and all menu input was validated before it reached the application logic.</p>
+            <p>The database enhancement created a different challenge because it significantly changed the program’s internal data flow while the user-facing behavior needed to remain consistent. I had to map the existing file-based process to database operations and verify that all previous features continued to work exactly as expected.</p>
+            <p>For the static demo, the main tradeoff was recreating server-side behavior within the limits of a client-only GitHub Pages site. Browser storage provides a practical demonstration of persistence, but the Python and SQLite versions remain the complete application implementations.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-header"><h4>Result</h4></div>
+          <div class="card-body">
+            <p>The final project is a cleaner, more extensible application that preserves the purpose of the original C++ program while improving its structure, reliability, and usefulness. The Python rewrite demonstrates language portability and modern software design. The sorting and search features make the data easier to work with. SQLite adds persistent storage, and the static browser demo makes the project accessible to visitors without requiring them to install or run the command-line application.</p>
+            <p>Throughout the project, I strengthened my skills in modular design, file management, exception handling, Python syntax, SQL, input validation, and interface design. More importantly, the project shows my ability to take existing logic and reimplement it in a way that is more organized, maintainable, and user-friendly without losing the original functionality.</p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
