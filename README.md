@@ -52,7 +52,7 @@ Date: August 2026
     *   [Requesting Additions 📝](#requesting-additions)
 *   [License 📜](#license)
 *   [Important Links 🔗](#important-links)
-*   [Copyright ©️](#copyright)
+*   [Attribution ℹ️](#attribution)
 
 ---
 
@@ -63,7 +63,13 @@ Date: August 2026
 
 
 
-I developed **Corner Grocer** as a grocery-frequency analysis project with item lookup, normalized search, sorting, histogram reporting, persistent Python/SQLite source, and a browser-accessible interactive version.
+
+
+**Corner Grocer** is a grocery-purchase frequency analysis application that turns transaction data into information a store can use for stocking decisions. Users can look up individual products, review the full frequency list, sort and search the data, and visualize purchasing patterns with a histogram.
+
+I built the project around a simple operational question: which items are customers actually buying most often? Raw transaction records contain the answer, but they are inconvenient to inspect manually. Corner Grocer processes those records into readable counts and visual comparisons so high-demand and low-demand products are easy to identify.
+
+The application keeps the analysis straightforward on purpose. Search, normalization, persistence, frequency views, and histogram output all support the same inventory-planning task, giving a small grocery operation a lightweight alternative to manually counting purchases or maintaining a separate spreadsheet.
 
 </details>
 
@@ -74,8 +80,8 @@ I developed **Corner Grocer** as a grocery-frequency analysis project with item 
 
 
 
-Corner Grocer is built around a practical inventory question: what is being purchased, and how often? The current project makes that information easy to inspect through lookup, full frequency reports, sorting, search, histograms, and downloadable output. It also preserves the Python and SQLite implementation alongside the browser version so the repository shows both the working data logic and a version that can be used directly from GitHub Pages.
 
+I created **Corner Grocer** to turn purchase-frequency data into information a grocery business can actually use when making stocking and inventory decisions. Instead of forcing someone to inspect raw transaction records, the application makes it easy to look up an item, review the full frequency list, sort and search the results, visualize demand with a histogram, and export the data. The purpose is to help a store see what customers buy most often so inventory decisions can be based on purchasing patterns rather than guesswork.
 </details>
 
 <a id="design-style-and-inspiration"></a>
@@ -96,12 +102,16 @@ Corner Grocer combines the practical feel of a grocery inventory tool with an ap
 
 
 
+
+
 I pulled the palette below directly from the current project stylesheet `style.css`.
 
-| Hex | Color Name | Primary Use |
+Each row lists every interface-use category identified for that exact color value in the documented stylesheet analysis. When one hex value is reused for several jobs, I keep all of those uses together in the same row instead of reducing it to a single generic label.
+
+| Hex | Color Name | Complete Use in the Interface |
 | --- | --- | --- |
-| `#154732` | Deep Grocery Green | Header, footer, primary controls, and main brand structure |
-| `#B9FF66` | Lime | High-visibility buttons, tags, and accent details |
+| `#154732` | Deep Grocery Green | Header; footer; primary controls; and main brand structure |
+| `#B9FF66` | Lime | High-visibility buttons; tags; and accent details |
 | `#FFFEF1` | Cream | Primary light surfaces and high-contrast text on dark green |
 | `#222222` | Ink | Primary body text |
 | `#F6F5EA` | Warm Off-White | Main page background |
@@ -445,18 +455,22 @@ No license terms are assumed here. If the repository includes a `LICENSE` file, 
 
 ---
 
-<a id="copyright"></a>
+<a id="attribution"></a>
 
 <details open>
-<summary><h2><strong>Copyright ©️</strong></h2></summary>
+<summary><h2><strong>Attribution ℹ️</strong></h2></summary>
 
 
+Project documentation and original project materials are credited to their respective sources where applicable.
 
-© 2026 Alysha Pursley. Project documentation and original project materials are credited to their respective sources where applicable.
-
+</details>
 
 ---
 
-Made with care by Alysha Pursley.
+<div align=center>
+   
+***Made with ❤️ and a bit of 🪄.***
+<br>
+**©️ 2026 Alysha Pursley. All Rights Reserved.**
 
-</details>
+</div>
