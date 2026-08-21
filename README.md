@@ -7,6 +7,8 @@ Date: August 2026
 
 <div align="center">
 
+<img src="images/corner_grocer_transparent.png" alt="Corner Grocer logo" width="65%">
+
 <h1>Corner Grocer 🛒</h1>
 
 <p><a href="https://github.com/apursley2012/corner-grocer/stargazers"><img src="https://img.shields.io/github/stars/apursley2012/corner-grocer?style=for-the-badge&amp;logo=github&amp;label=Stars" alt="Stars"></a> <a href="https://github.com/apursley2012/corner-grocer/forks"><img src="https://img.shields.io/github/forks/apursley2012/corner-grocer?style=for-the-badge&amp;logo=github&amp;label=Forks" alt="Forks"></a> <a href="https://github.com/apursley2012/corner-grocer/issues"><img src="https://img.shields.io/github/issues/apursley2012/corner-grocer?style=for-the-badge&amp;logo=github&amp;label=Issues" alt="Issues"></a> <a href="https://github.com/apursley2012/corner-grocer/commits"><img src="https://img.shields.io/github/last-commit/apursley2012/corner-grocer?style=for-the-badge&amp;logo=git&amp;label=Last%20Commit" alt="Last Commit"></a> <a href="https://github.com/apursley2012/corner-grocer"><img src="https://img.shields.io/github/repo-size/apursley2012/corner-grocer?style=for-the-badge&amp;logo=github&amp;label=Repo%20Size" alt="Repo Size"></a> <a href="https://github.com/apursley2012/corner-grocer"><img src="https://img.shields.io/github/languages/top/apursley2012/corner-grocer?style=for-the-badge&amp;label=Top%20Language" alt="Top Language"></a></p>
@@ -57,10 +59,9 @@ Date: August 2026
 <a id="project-overview"></a>
 
 <details open>
-<summary><strong>Project Overview 🔎</strong></summary>
+<summary><h2><strong>Project Overview 🔎</strong></h2></summary>
 
 
-## Project Overview 🔎
 
 I developed **Corner Grocer** as a grocery-frequency analysis project with item lookup, normalized search, sorting, histogram reporting, persistent Python/SQLite source, and a browser-accessible interactive version.
 
@@ -69,10 +70,9 @@ I developed **Corner Grocer** as a grocery-frequency analysis project with item 
 <a id="purpose"></a>
 
 <details open>
-<summary><strong>Purpose 🎯</strong></summary>
+<summary><h3><strong>Purpose 🎯</strong></h3></summary>
 
 
-### Purpose 🎯
 
 Corner Grocer is built around a practical inventory question: what is being purchased, and how often? The current project makes that information easy to inspect through lookup, full frequency reports, sorting, search, histograms, and downloadable output. It also preserves the Python and SQLite implementation alongside the browser version so the repository shows both the working data logic and a version that can be used directly from GitHub Pages.
 
@@ -81,10 +81,9 @@ Corner Grocer is built around a practical inventory question: what is being purc
 <a id="design-style-and-inspiration"></a>
 
 <details open>
-<summary><strong>Design Style and Inspiration 🎨</strong></summary>
+<summary><h3><strong>Design Style and Inspiration 🎨</strong></h3></summary>
 
 
-### Design Style and Inspiration 🎨
 
 Corner Grocer combines the practical feel of a grocery inventory tool with an approachable browser interface. Deep green gives the project its identity, lime is reserved for high-visibility controls and highlights, and cream and mint surfaces keep product information easy to scan. Search, frequency data, item cards, and supporting explanations stay straightforward so the interface remains connected to the underlying inventory-analysis program rather than becoming a decorative storefront.
 
@@ -93,10 +92,9 @@ Corner Grocer combines the practical feel of a grocery inventory tool with an ap
 <a id="main-color-palette"></a>
 
 <details open>
-<summary><strong>Main Color Palette 🌈</strong></summary>
+<summary><h3><strong>Main Color Palette 🌈</strong></h3></summary>
 
 
-### Main Color Palette 🌈
 
 I pulled the palette below directly from the current project stylesheet `style.css`.
 
@@ -118,10 +116,9 @@ I pulled the palette below directly from the current project stylesheet `style.c
 <a id="preview-screenshots"></a>
 
 <details open>
-<summary><strong>Preview Screenshots 🖼️</strong></summary>
+<summary><h3><strong>Preview Screenshots 🖼️</strong></h3></summary>
 
 
-### Preview Screenshots 🖼️
 
 Click any preview image in the repository screenshot folder to open the full-size file.
 
@@ -138,10 +135,9 @@ The gallery uses paired, centered images when screenshots are present. Keep scre
 <a id="key-features"></a>
 
 <details open>
-<summary><strong>Key Features ✨</strong></summary>
+<summary><h2><strong>Key Features ✨</strong></h2></summary>
 
 
-## Key Features ✨
 
 *   **Look up the purchase frequency of a specific grocery item**
 *   **Display the full frequency list**
@@ -159,10 +155,9 @@ The gallery uses paired, centered images when screenshots are present. Keep scre
 <a id="tech-stack"></a>
 
 <details open>
-<summary><strong>Tech Stack 🛠️</strong></summary>
+<summary><h2><strong>Tech Stack 🛠️</strong></h2></summary>
 
 
-## Tech Stack 🛠️
 
 *   **HTML**
 *   **CSS**
@@ -179,10 +174,9 @@ The gallery uses paired, centered images when screenshots are present. Keep scre
 <a id="live-demo"></a>
 
 <details open>
-<summary><strong>Live Demo 🚀</strong></summary>
+<summary><h2><strong>Live Demo 🚀</strong></h2></summary>
 
 
-## Live Demo 🚀
 
 Open the published project here:
 
@@ -195,20 +189,18 @@ Open the published project here:
 <a id="installation"></a>
 
 <details open>
-<summary><strong>Installation 📦</strong></summary>
+<summary><h2><strong>Installation 📦</strong></h2></summary>
 
 
-## Installation 📦
 
 </details>
 
 <a id="local-use"></a>
 
 <details open>
-<summary><strong>Local Use 💻</strong></summary>
+<summary><h3><strong>Local Use 💻</strong></h3></summary>
 
 
-### Local Use 💻
 
 1. Clone or download the repository.
 2. Keep the existing folder structure intact so the page can still find its styles, scripts, data, and assets.
@@ -220,10 +212,9 @@ Open the published project here:
 <a id="github-pages-deployment"></a>
 
 <details open>
-<summary><strong>GitHub Pages Deployment 🌐</strong></summary>
+<summary><h3><strong>GitHub Pages Deployment 🌐</strong></h3></summary>
 
 
-### GitHub Pages Deployment 🌐
 
 For the static/public portion, keep `index.html` at the repository root, use relative asset paths, then enable **Settings → Pages → Deploy from a branch → main → / (root)**. Projects that include Python, Node, MongoDB, authentication, browser automation, or another server runtime still need an appropriate backend host for those server-dependent features.
 
@@ -234,10 +225,9 @@ For the static/public portion, keep `index.html` at the repository root, use rel
 <a id="usage"></a>
 
 <details open>
-<summary><strong>Usage 🧭</strong></summary>
+<summary><h2><strong>Usage 🧭</strong></h2></summary>
 
 
-## Usage 🧭
 
 Start with the main page and follow the project’s primary workflow. The interface is intended to be usable without reading the source first, while the case studies, articles, documentation, and source folders provide the deeper implementation context. Where browser storage is used, saved information belongs to that browser/device unless the project explicitly includes a shared backend.
 
@@ -248,20 +238,18 @@ Start with the main page and follow the project’s primary workflow. The interf
 <a id="project-structure"></a>
 
 <details open>
-<summary><strong>Project Structure 🗂️</strong></summary>
+<summary><h2><strong>Project Structure 🗂️</strong></h2></summary>
 
 
-## Project Structure 🗂️
 
 </details>
 
 <a id="pages-included"></a>
 
 <details open>
-<summary><strong>Pages Included 📄</strong></summary>
+<summary><h3><strong>Pages Included 📄</strong></h3></summary>
 
 
-### Pages Included 📄
 
 | Page / Area | Purpose |
 | --- | --- |
@@ -276,10 +264,9 @@ Start with the main page and follow the project’s primary workflow. The interf
 <a id="core-files-and-architecture"></a>
 
 <details open>
-<summary><strong>Core Files and Architecture 🧩</strong></summary>
+<summary><h3><strong>Core Files and Architecture 🧩</strong></h3></summary>
 
 
-### Core Files and Architecture 🧩
 
 The repository separates the public interface from supporting source and documentation where the project needs that distinction. The important rule is that **Corner Grocer should be documented as the project it is**, not as a generic theme or one-size-fits-all site. Files that implement the main workflow belong with the application, while case studies, articles, source history, data, or backend code are documented according to their real role.
 
@@ -288,10 +275,9 @@ The repository separates the public interface from supporting source and documen
 <a id="file-and-folder-structure"></a>
 
 <details open>
-<summary><strong>File and Folder Structure 🌳</strong></summary>
+<summary><h3><strong>File and Folder Structure 🌳</strong></h3></summary>
 
 
-### File and Folder Structure 🌳
 
 ```text
 corner-grocer/
@@ -312,10 +298,9 @@ This tree highlights the major documented areas rather than inventing files that
 <a id="source-application-and-browser-experience"></a>
 
 <details open>
-<summary><strong>Source Application and Browser Experience 🖥️</strong></summary>
+<summary><h2><strong>Source Application and Browser Experience 🖥️</strong></h2></summary>
 
 
-## Source Application and Browser Experience 🖥️
 
 The browser version is not presented as if GitHub Pages is running SQLite. The persistent Python implementation remains in the repository, while the public site recreates the same core grocery-frequency workflow with JavaScript and browser storage. That keeps the online experience usable without misrepresenting the runtime.
 
@@ -328,10 +313,9 @@ Normalization is especially important for grocery data because `Apple`, `apple`,
 <a id="customization-guide"></a>
 
 <details open>
-<summary><strong>Customization Guide 🎨</strong></summary>
+<summary><h2><strong>Customization Guide 🎨</strong></h2></summary>
 
 
-## Customization Guide 🎨
 
 The safest way to customize or extend **Corner Grocer** is to preserve its existing workflow first, then change one layer at a time. Update project content and data in the files that already own that information, keep visual changes inside the existing style system, and test every page that shares the changed component or data source. New features should solve a problem that belongs to this project instead of copying a feature from an unrelated application.
 
@@ -344,10 +328,9 @@ For visual changes, update the documented palette intentionally and re-check con
 <a id="accessibility-and-browser-compatibility"></a>
 
 <details open>
-<summary><strong>Accessibility and Browser Compatibility ♿</strong></summary>
+<summary><h2><strong>Accessibility and Browser Compatibility ♿</strong></h2></summary>
 
 
-## Accessibility and Browser Compatibility ♿
 
 The public interface should remain keyboard-navigable, readable at common mobile and desktop widths, and usable without relying on color alone to communicate state. Form controls should keep visible labels or accessible names, images should use meaningful `alt` text, focus indicators should remain visible, and decorative animation should respect reduced-motion preferences when motion is present. Browser compatibility should be checked in current Safari, Chrome, Firefox, and Edge where practical.
 
@@ -358,10 +341,9 @@ The public interface should remain keyboard-navigable, readable at common mobile
 <a id="repository-relationship"></a>
 
 <details open>
-<summary><strong>Repository Relationship 🔗</strong></summary>
+<summary><h2><strong>Repository Relationship 🔗</strong></h2></summary>
 
 
-## Repository Relationship 🔗
 
 **Corner Grocer** is documented as its own project. Supporting case studies, articles, source history, static presentation layers, or backend/runtime folders are parts of this repository only when they help explain or run this project. They should not be described as separate replacement projects.
 
@@ -374,10 +356,9 @@ Where this repository contains both a static GitHub Pages layer and source that 
 <a id="project-scope-and-limitations"></a>
 
 <details open>
-<summary><strong>Project Scope and Limitations 📌</strong></summary>
+<summary><h2><strong>Project Scope and Limitations 📌</strong></h2></summary>
 
 
-## Project Scope and Limitations 📌
 
 This README separates what the published browser version can do from functionality that belongs to a backend, database, native application, notebook, or other runtime. Static hosting limitations are stated where they materially affect the project. The documentation should not imply that GitHub Pages is providing server-side authentication, Python execution, MongoDB access, SMS delivery, or another service it cannot actually run.
 
@@ -388,10 +369,9 @@ This README separates what the published browser version can do from functionali
 <a id="possible-future-enhancements"></a>
 
 <details open>
-<summary><strong>Possible Future Enhancements 💡</strong></summary>
+<summary><h2><strong>Possible Future Enhancements 💡</strong></h2></summary>
 
 
-## Possible Future Enhancements 💡
 
 *   Expand normalization rules for more irregular grocery plurals
 *   Add import/export support for larger inventory files
@@ -405,10 +385,9 @@ This README separates what the published browser version can do from functionali
 <a id="contributing"></a>
 
 <details open>
-<summary><strong>Contributing 🤝</strong></summary>
+<summary><h2><strong>Contributing 🤝</strong></h2></summary>
 
 
-## Contributing 🤝
 
 Contributions, bug reports, and practical improvement suggestions are welcome when they preserve the existing project direction and do not replace its identity with a generic redesign.
 
@@ -417,10 +396,9 @@ Contributions, bug reports, and practical improvement suggestions are welcome wh
 <a id="reporting-issues"></a>
 
 <details open>
-<summary><strong>Reporting Issues 🐛</strong></summary>
+<summary><h3><strong>Reporting Issues 🐛</strong></h3></summary>
 
 
-### Reporting Issues 🐛
 
 When reporting a problem, include the page or workflow involved, what you expected, what actually happened, browser/device information when relevant, and a screenshot if the issue is visual.
 
@@ -429,10 +407,9 @@ When reporting a problem, include the page or workflow involved, what you expect
 <a id="requesting-additions"></a>
 
 <details open>
-<summary><strong>Requesting Additions 📝</strong></summary>
+<summary><h3><strong>Requesting Additions 📝</strong></h3></summary>
 
 
-### Requesting Additions 📝
 
 Feature requests should explain the user problem the addition would solve and how it fits the existing project. Project-specific improvements are preferred over adding features only because they are common in other applications.
 
@@ -443,10 +420,9 @@ Feature requests should explain the user problem the addition would solve and ho
 <a id="license"></a>
 
 <details open>
-<summary><strong>License 📜</strong></summary>
+<summary><h2><strong>License 📜</strong></h2></summary>
 
 
-## License 📜
 
 No license terms are assumed here. If the repository includes a `LICENSE` file, that file controls reuse. If it does not, normal copyright applies and permission should not be inferred from the repository being public.
 
@@ -457,10 +433,9 @@ No license terms are assumed here. If the repository includes a `LICENSE` file, 
 <a id="important-links"></a>
 
 <details open>
-<summary><strong>Important Links 🔗</strong></summary>
+<summary><h2><strong>Important Links 🔗</strong></h2></summary>
 
 
-## Important Links 🔗
 
 *   **Live Project:** [https://apursley2012.github.io/corner-grocer/](https://apursley2012.github.io/corner-grocer/)
 *   **Repository:** [https://github.com/apursley2012/corner-grocer](https://github.com/apursley2012/corner-grocer)
@@ -473,10 +448,9 @@ No license terms are assumed here. If the repository includes a `LICENSE` file, 
 <a id="copyright"></a>
 
 <details open>
-<summary><strong>Copyright ©️</strong></summary>
+<summary><h2><strong>Copyright ©️</strong></h2></summary>
 
 
-## Copyright ©️
 
 © 2026 Alysha Pursley. Project documentation and original project materials are credited to their respective sources where applicable.
 
