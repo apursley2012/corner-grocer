@@ -7,7 +7,7 @@ Date: August 2026
 
 <div align="center">
 
-<img src="images/corner-grocer.png" alt="Corner Grocer logo" width="512px" height="auto">
+<img src="images/corner-grocer.png" alt="Corner Grocer logo" width="auto" height="512px">
 
 <h1>Corner Grocer 🛒</h1>
 
